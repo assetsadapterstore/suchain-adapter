@@ -12,7 +12,6 @@ import (
 	"context"
 	"encoding/json"
 	"fmt"
-	"github.com/astaxie/beego"
 	"io"
 	"net/http"
 	"net/url"
@@ -87,7 +86,6 @@ func (c *Client) SendRequest(ctx context.Context, method string, urlStr string, 
 
 	req, err := http.NewRequest(method, u.String(), buf)
 
-	beego.Warn(queryString)
 	if err != nil {
 		return nil, err
 	}
