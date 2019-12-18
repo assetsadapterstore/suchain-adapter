@@ -123,6 +123,7 @@ func TestWalletManager_CreateAddress(t *testing.T) {
 
 	log.Info("address:", address)
 
+	
 	tm.CloseDB(testApp)
 }
 
