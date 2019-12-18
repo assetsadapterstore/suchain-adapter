@@ -8,7 +8,7 @@ require (
 	github.com/blocktree/futurepia-adapter v1.0.12
 	github.com/blocktree/go-owcdrivers v1.0.12
 	github.com/blocktree/go-owcrypt v1.0.1
-	github.com/blocktree/openwallet v1.5.4
+	github.com/blocktree/openwallet v1.5.5
 	github.com/btcsuite/btcd v0.0.0-20190315201642-aa6e0f35703c
 	github.com/fatih/structs v1.1.0
 	github.com/google/go-querystring v1.0.0
